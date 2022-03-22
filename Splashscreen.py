@@ -46,8 +46,8 @@ class Ui_SplashScreen(object):
         font.setKerning(True)
         self.label.setFont(font)
         self.label.setStyleSheet(u"color: rgb(254, 121, 199);\n"
-"background-image: url(E:/CV/Abhidrishya_logo.png);")
-        self.label.setPixmap(QPixmap(u"E:/CV/Abhidrishya_logo.png"))
+"background-image: url(Abhidrishya_logo.png);")
+        self.label.setPixmap(QPixmap(u"Abhidrishya_logo.png"))
         self.label.setScaledContents(True)
         self.label.setAlignment(Qt.AlignCenter)
         self.progressBar = QProgressBar(self.DropShadowFrame)
